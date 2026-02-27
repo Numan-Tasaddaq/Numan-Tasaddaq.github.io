@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Numan Tasaddaq - projects, skills, and experience." />
+  <title>Numan Tasaddaq | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="topbar" id="top">
+    <a class="brand" href="#top">NT</a>
+    <nav class="nav" aria-label="Primary">
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero reveal">
+      <h1>Numan Tasaddaq</h1>
+      <p class="hero-role">Machine Learning &amp; Intelligent Systems</p>
+      <p class="lead">M.Sc. Applied Computer Science Candidate @ HS Schmalkalden</p>
+      <div class="hero-actions">
+        <a class="btn" href="#projects">📂 Projects</a>
+        <a class="btn" href="https://github.com/numan-tasaddaq" target="_blank" rel="noreferrer">🐙 GitHub</a>
+        <a class="btn" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">🔗 LinkedIn</a>
+        <a class="btn" href="#" target="_blank" rel="noreferrer">📄 Resume/CV</a>
+      </div>
+    </section>
+
+    <section class="section reveal" id="projects">
+      <div class="section-head">
+        <h2>Selected Work</h2>
+        <div class="filters" role="group" aria-label="Project category filters">
+          <button class="chip active" data-filter="all" type="button">All</button>
+          <button class="chip" data-filter="web" type="button">Web</button>
+          <button class="chip" data-filter="data" type="button">Data</button>
+          <button class="chip" data-filter="automation" type="button">Automation</button>
+        </div>
+      </div>
+      <div class="project-grid" id="project-grid">
+        <article class="project-card" data-category="web">
+          <p class="tag">Web</p>
+          <h3>Client Dashboard</h3>
+          <p>A role-based dashboard with analytics, reports, and account controls for internal teams.</p>
+          <div class="card-links">
+            <a href="#" aria-label="Open live demo">Live</a>
+            <a href="#" aria-label="Open source code">Code</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="data">
+          <p class="tag">Data</p>
+          <h3>Sales Forecast Engine</h3>
+          <p>Pipeline for cleaning data and generating weekly demand forecasts with actionable outputs.</p>
+          <div class="card-links">
+            <a href="#" aria-label="Open case study">Case Study</a>
+            <a href="#" aria-label="Open source code">Code</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="automation">
+          <p class="tag">Automation</p>
+          <h3>Workflow Bot Suite</h3>
+          <p>Automation scripts that reduced repetitive operational tasks and improved team response time.</p>
+          <div class="card-links">
+            <a href="#" aria-label="Open documentation">Docs</a>
+            <a href="#" aria-label="Open source code">Code</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal" id="about">
+      <h2>About Me</h2>
+      <p>
+        I work across product, frontend, and backend with a strong focus on shipping reliable features quickly. I care about clean architecture,
+        clear communication, and measurable impact.
+      </p>
+      <ul class="skills">
+        <li>JavaScript / TypeScript</li>
+        <li>Python</li>
+        <li>React & APIs</li>
+        <li>Automation</li>
+        <li>SQL</li>
+        <li>Cloud Deployment</li>
+      </ul>
+    </section>
+
+    <section class="section reveal" id="contact">
+      <h2>Contact</h2>
+      <p>Open to freelance work, collaboration, and full-time opportunities.</p>
+      <div class="contact-links">
+        <a href="mailto:your.email@example.com">your.email@example.com</a>
+        <a href="https://github.com/numan-tasaddaq" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Numan Tasaddaq. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
