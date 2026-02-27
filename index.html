@@ -84,42 +84,72 @@
 
     <section class="section reveal" id="projects">
       <div class="section-head">
-        <h2>Selected Work</h2>
-        <div class="filters" role="group" aria-label="Project category filters">
-          <button class="chip active" data-filter="all" type="button">All</button>
-          <button class="chip" data-filter="web" type="button">Web</button>
-          <button class="chip" data-filter="data" type="button">Data</button>
-          <button class="chip" data-filter="automation" type="button">Automation</button>
-        </div>
+        <h2>Projects</h2>
       </div>
       <div class="project-grid" id="project-grid">
-        <article class="project-card" data-category="web">
-          <p class="tag">Web</p>
-          <h3>Client Dashboard</h3>
-          <p>A role-based dashboard with analytics, reports, and account controls for internal teams.</p>
+        <article class="project-card">
+          <h3>Job Recommendation System</h3>
+          <p>AI-powered web application that matches users with relevant job opportunities using semantic search.</p>
+          <p class="project-subtitle">What it does:</p>
+          <ul class="project-points">
+            <li>Processes job listings using TF-IDF and CountVectorizer</li>
+            <li>Matches user queries via Cosine Similarity</li>
+            <li>Generates human-like job explanations using Gemini API</li>
+          </ul>
+          <p><strong>Tech Stack:</strong> Python, Flask, Scikit-learn, Gemini API</p>
+          <p><strong>Result:</strong> Delivered a functional recommendation engine with an interactive interface displaying salary, location, and relevance-based ranking.</p>
           <div class="card-links">
-            <a href="#" aria-label="Open live demo">Live</a>
-            <a href="#" aria-label="Open source code">Code</a>
+            <a href="#" aria-label="Open Job Recommendation System source code">GitHub</a>
           </div>
         </article>
 
-        <article class="project-card" data-category="data">
-          <p class="tag">Data</p>
-          <h3>Sales Forecast Engine</h3>
-          <p>Pipeline for cleaning data and generating weekly demand forecasts with actionable outputs.</p>
+        <article class="project-card">
+          <h3>Dementia Prediction System</h3>
+          <p>Comparative machine learning system for medical classification.</p>
+          <p class="project-subtitle">What it does:</p>
+          <ul class="project-points">
+            <li>Implemented a Discrete Bayesian Network</li>
+            <li>Developed a Gaussian Process Classifier (RBF kernel)</li>
+            <li>Applied 5-fold cross-validation with AUC and Log Loss evaluation</li>
+          </ul>
+          <p><strong>Tech Stack:</strong> Python, pgmpy, Scikit-learn</p>
+          <p><strong>Result:</strong> Built an interactive GUI to compare probabilistic and discriminative models for medical prediction.</p>
           <div class="card-links">
-            <a href="#" aria-label="Open case study">Case Study</a>
-            <a href="#" aria-label="Open source code">Code</a>
+            <a href="#" aria-label="Open Dementia Prediction System source code">GitHub</a>
           </div>
         </article>
 
-        <article class="project-card" data-category="automation">
-          <p class="tag">Automation</p>
-          <h3>Workflow Bot Suite</h3>
-          <p>Automation scripts that reduced repetitive operational tasks and improved team response time.</p>
+        <article class="project-card">
+          <h3>Enron Email Analysis &amp; Visualization Engine</h3>
+          <p>Data intelligence platform for analyzing and visualizing large-scale email communication networks.</p>
+          <p class="project-subtitle">What it does:</p>
+          <ul class="project-points">
+            <li>Extracts keywords and generates narrative summaries using Gemini API</li>
+            <li>Classifies and links related email threads</li>
+            <li>Identifies key individuals and communication clusters</li>
+            <li>Visualizes communication patterns through an interactive web interface</li>
+          </ul>
+          <p><strong>Tech Stack:</strong> Python, Django, NLP techniques, Gemini API, Data Visualization</p>
+          <p><strong>Result:</strong> Developed an automated system for exploring unstructured email datasets and identifying key communication dynamics.</p>
           <div class="card-links">
-            <a href="#" aria-label="Open documentation">Docs</a>
-            <a href="#" aria-label="Open source code">Code</a>
+            <a href="#" aria-label="Open Enron Email Analysis source code">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h3>Computer Vision: Segmentation &amp; Object Tracking</h3>
+          <p>Computer vision pipeline for segmenting and tracking objects in noisy visual data.</p>
+          <p class="project-subtitle">What it does:</p>
+          <ul class="project-points">
+            <li>Performs image segmentation using shape and texture features</li>
+            <li>Extracts Haralick texture descriptors</li>
+            <li>Implements a Kalman Filter for 2D trajectory estimation</li>
+            <li>Evaluates performance using RMSE and Dice Similarity Score</li>
+          </ul>
+          <p><strong>Tech Stack:</strong> Python, OpenCV, NumPy, Statistical Analysis</p>
+          <p><strong>Result:</strong> Improved tracking stability and accuracy through covariance tuning and feature-based segmentation.</p>
+          <div class="card-links">
+            <a href="#" aria-label="Open Computer Vision project source code">GitHub</a>
           </div>
         </article>
       </div>

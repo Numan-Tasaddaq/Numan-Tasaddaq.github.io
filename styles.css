@@ -183,7 +183,7 @@ h1 {
 .project-grid {
   margin-top: 1rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 0.8rem;
 }
 
@@ -205,6 +205,23 @@ h1 {
 
 .project-card h3 {
   margin: 0.45rem 0;
+}
+
+.project-subtitle {
+  margin: 0.45rem 0 0.35rem;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.85rem;
+  color: #0b3a2a;
+}
+
+.project-points {
+  margin: 0 0 0.6rem 1.1rem;
+  padding: 0;
+}
+
+.project-points li {
+  margin: 0 0 0.32rem;
+  line-height: 1.5;
 }
 
 .card-links {
